@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/JOWEL/AndroidStudioProjects/TvShow/app/src/main/res/drawable-v24/background_slider_indicator_inactive.xml" value="0.15648148148148147" />
+        <entry key="..\:/Users/JOWEL/AndroidStudioProjects/TvShow/app/src/main/res/drawable/background_back_button.xml" value="0.5428571428571428" />
+        <entry key="..\:/Users/JOWEL/AndroidStudioProjects/TvShow/app/src/main/res/drawable/background_fab.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/JOWEL/AndroidStudioProjects/TvShow/app/src/main/res/drawable/background_fading_edge.xml" value="0.1" />
+        <entry key="..\:/Users/JOWEL/AndroidStudioProjects/TvShow/app/src/main/res/drawable/background_slider_indicator_active.xml" value="0.15648148148148147" />
+        <entry key="..\:/Users/JOWEL/AndroidStudioProjects/TvShow/app/src/main/res/drawable/background_tv_show.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/JOWEL/AndroidStudioProjects/TvShow/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/JOWEL/AndroidStudioProjects/TvShow/app/src/main/res/layout/activity_tv_show_details.xml" value="0.16296296296296298" />
+        <entry key="..\:/Users/JOWEL/AndroidStudioProjects/TvShow/app/src/main/res/layout/activity_watch_list.xml" value="0.33" />
+        <entry key="..\:/Users/JOWEL/AndroidStudioProjects/TvShow/app/src/main/res/layout/item_container_episode.xml" value="0.1" />
+        <entry key="..\:/Users/JOWEL/AndroidStudioProjects/TvShow/app/src/main/res/layout/item_container_slider_image.xml" value="0.1" />
+        <entry key="..\:/Users/JOWEL/AndroidStudioProjects/TvShow/app/src/main/res/layout/item_container_tv_show.xml" value="0.2443820224719101" />
+        <entry key="..\:/Users/JOWEL/AndroidStudioProjects/TvShow/app/src/main/res/layout/layout_episodes_bottom_sheet.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
