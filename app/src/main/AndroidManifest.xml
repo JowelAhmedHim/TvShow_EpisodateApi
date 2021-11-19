@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TvShow">
         <activity
+            android:name=".ui.activity.SearchActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.activity.WatchListActivity"
             android:exported="false" />
         <activity

@@ -14,6 +14,7 @@ import com.example.tvshow.databinding.ActivityWatchListBinding;
 import com.example.tvshow.listener.WatchlistListener;
 import com.example.tvshow.service.model.TvShow;
 import com.example.tvshow.ui.adapter.WatchlistAdapter;
+import com.example.tvshow.utilities.TempDataHolder;
 import com.example.tvshow.viewModel.WatchListViewModel;
 
 import java.util.ArrayList;
@@ -48,6 +49,7 @@ public class WatchListActivity extends AppCompatActivity implements WatchlistLis
             }
         });
         watchList = new ArrayList<>();
+        loadWatchList();
 
     }
 
@@ -73,7 +75,12 @@ public class WatchListActivity extends AppCompatActivity implements WatchlistLis
     @Override
     protected void onResume() {
         super.onResume();
-        loadWatchList();
+        if (TempDataHolder.IS_WATCHLIST_UPDATED)
+        {
+            loadWatchList();
+            TempDataHolder.IS_WATCHLIST_UPDATED = false;
+        }
+
     }
 
     @Override
